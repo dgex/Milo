@@ -120,3 +120,7 @@ The dashboard centers its labels within the rounded cards and labels the city as
 See [How Milo will hear you](docs/microphone-guide.md) for a beginner-friendly illustrated walkthrough.
 
 See [Infographic Knowledge](infographic%20knowledge.md) for the illustrated microphone lesson and component glossary.
+
+## Download and restore Milo
+
+The latest published [ELF and BIN firmware](releases/latest/README.md) are tracked in this repository, with source revision, validation notes, and SHA-256 hashes. Use the ELF for easy flashing. Future firmware updates must publish validated artifacts using scripts/publish-firmware.ps1.
