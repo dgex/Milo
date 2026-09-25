@@ -114,3 +114,7 @@ Without a configured or approved automatic location, only the clock is sent.
 The Wi-Fi firmware-download timeout remains unresolved.
 
 The dashboard centers its labels within the rounded cards and labels the city as an IP location estimate. A local sentence generator changes the two-line joke bubble every 30 seconds on both the face and dashboard; it does not call a language model.
+
+## Learn the microphone hardware
+
+See [How Milo will hear you](docs/microphone-guide.md) for a beginner-friendly illustrated walkthrough.
