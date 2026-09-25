@@ -1,0 +1,12 @@
+build/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+.codex-remote-attachments/
+tmp/
+.env
+.env.*
+portal_keys.json
+*.log
+
