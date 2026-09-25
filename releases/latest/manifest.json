@@ -1,0 +1,13 @@
+{
+  "source_commit": "e67603b732ef743e8ff0b338e174e9298d129360",
+  "board": "MIMXRT1170-EVKB",
+  "configuration": "flexspi_nor_release",
+  "build_time_utc": "2026-09-24T18:30:53.0005390Z",
+  "published_time_utc": "2026-09-25T00:41:32.8018833Z",
+  "bin_address": "0x30000400",
+  "validation": "Exact release ELF flashed on 2026-09-24: display and GT911 initialization succeeded; board acknowledged live USB clock/weather. Latest centered layout/jokes not visually confirmed. Wi-Fi initialization timed out; voice not implemented.",
+  "sha256": {
+    "Milo.bin": "0ed3e8ec3b4f246162e63e121a968f67e4146607ca26d00edcbbd198d3eb6008",
+    "Milo.elf": "35eaa99c296cd8986ed13f50db7a5a3f318ab9bd375eec16653bcaef527152de"
+  }
+}
