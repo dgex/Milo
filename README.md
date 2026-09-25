@@ -118,3 +118,5 @@ The dashboard centers its labels within the rounded cards and labels the city as
 ## Learn the microphone hardware
 
 See [How Milo will hear you](docs/microphone-guide.md) for a beginner-friendly illustrated walkthrough.
+
+See [Infographic Knowledge](infographic%20knowledge.md) for the illustrated microphone lesson and component glossary.
