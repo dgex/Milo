@@ -22,7 +22,7 @@ foreach ($path in @($elf,$bin)) {
     if (!(Test-Path -LiteralPath $path)) { throw "Missing release artifact: $path" }
 }
 $builtAt = (Get-Item -LiteralPath $elf).LastWriteTimeUtc
-foreach ($relative in (Invoke-RepoGit ls-files firmware src scripts)) {
+foreach ($relative in (Invoke-RepoGit ls-files firmware src scripts/build.ps1 scripts/embed_portal.py scripts/vendor)) {
     if ((Get-Item -LiteralPath (Join-Path $root $relative)).LastWriteTimeUtc -gt $builtAt) {
         throw "Build is older than $relative. Build release again and validate it first."
     }
@@ -61,3 +61,4 @@ if ($Push) {
     Invoke-RepoGit push
 }
 Write-Output "Release artifacts ready at $destination"
+
